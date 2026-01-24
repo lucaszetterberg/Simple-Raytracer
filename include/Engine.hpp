@@ -11,6 +11,7 @@ class Engine {
 public:
     Image renderNoLighting(const Scene& scene, int W, int H) const;
     Image renderDiffuse(const Scene& scene, int W, int H) const;
+    Image renderDiffuseSpecular(const Scene& scene, int W, int H) const;
 };
 
 }

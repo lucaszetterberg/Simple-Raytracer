@@ -53,7 +53,7 @@ int main() {
 
     // 5) Render
     Engine engine;
-    Image img = engine.renderDiffuse(scene, W, H);
+    Image img = engine.renderDiffuseSpecular(scene, W, H);
 
     // 6) Save image
     if (!img.savePPM("output.ppm")) {
